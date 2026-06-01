@@ -1,17 +1,18 @@
+```json
 {
-  "provider_type": "remote",
-  "package_version": "v0.8.157-1",
-  "package_url": "https://github.com/meshery-extensions/meshery-extensions-packages/releases/download/v0.8.157-1/provider-meshery.tar.gz",
-  "provider_name": "Intel Perf Platform",
-  "provider_description": [
+  "providerType": "remote",
+  "packageVersion": "v0.8.157-1",
+  "packageUrl": "https://github.com/meshery-extensions/meshery-extensions-packages/releases/download/v0.8.157-1/provider-meshery.tar.gz",
+  "providerName": "Intel Perf Platform",
+  "providerDescription": [
     "Intel Performance Platform for use on internal networks in assessment of cloud native traffic with a specific focus on efficiencies in the configuraiton of Envoy, Nighthawk, Meshery and Intel hardware tuning."
   ],
-  "provider_url": "https://perf.smp-spec.io",
+  "providerUrl": "https://perf.smp-spec.io",
   "extensions": {
     "navigator": [
       {
         "title": "Designer",
-        "on_click_callback": 1,
+        "onClickCallback": 1,
         "href": {
           "uri": "/meshmap",
           "external": false
@@ -34,7 +35,7 @@
         "isBeta": true
       }
     ],
-    "user_prefs": [
+    "userPrefs": [
       {
         "component": "/provider/userpref/meshmap_userpref/index.js",
         "type": "component"
@@ -50,7 +51,7 @@
     "account": [
       {
         "title": "Cloud Account",
-        "on_click_callback": 1,
+        "onClickCallback": 1,
         "href": {
           "uri": "https://perf.smp-spec.io/account/profile",
           "external": true
@@ -61,7 +62,7 @@
       },
       {
         "title": "Cloud Catalog",
-        "on_click_callback": 1,
+        "onClickCallback": 1,
         "href": {
           "uri": "https://perf.smp-spec.io/catalog",
           "external": true
@@ -72,7 +73,7 @@
       },
       {
         "title": "Cloud Dashboard",
-        "on_click_callback": 1,
+        "onClickCallback": 1,
         "href": {
           "uri": "https://perf.smp-spec.io",
           "external": true
@@ -215,3 +216,4 @@
     }
   }
 }
+```
